@@ -1,0 +1,178 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOomxd46a4uur+2j3ufpE4M",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/justtrying23/py/blob/main/ControlStatement\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"enter value\")\n",
+        "b=input(\"enter value\")\n",
+        "c=input(\"enter value\")\n",
+        "a=int(a)\n",
+        "b=int(b)\n",
+        "c=int(c)\n",
+        "if a>b and a>c :\n",
+        "   print(a,\" is greater then \",b ,\" and \",c)\n",
+        "elif b>c and b>a :\n",
+        "   print(b,\" is greater then\",a,\" and \",c)\n",
+        "else :\n",
+        "   print(c,\" is greater then \",a,\" and \",b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gNnWsuK1vfah",
+        "outputId": "2b579411-58ba-4a08-c120-d9b17995a58e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter value20\n",
+            "enter value40\n",
+            "enter value6\n",
+            "40  is greater then 20  and  6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"enter value\")\n",
+        "a=int(a)\n",
+        "if a%3==0 :\n",
+        "  print(a,\"is divisible by \",3)\n",
+        "if a%10==0:\n",
+        "  print(a,\"is divisible by \",10)\n",
+        "if a%5==0:\n",
+        "  print(a,\"is divisible by \",5)\n",
+        "else:\n",
+        "  print(a,\"is not divisible by \",3,5,10)"
+      ],
+      "metadata": {
+        "id": "k2FWv8DTzJIh",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2ee0412c-fece-4701-91e0-edd82d758c20"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter value49\n",
+            "49 is not divisible by  3 5 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"enter value\")\n",
+        "a=int(a)\n",
+        "if a<=10:\n",
+        "  if a==1:\n",
+        "    print(\"one\")\n",
+        "  elif a==2:\n",
+        "    print(\"two\")\n",
+        "  elif a==3:\n",
+        "    print(\"three\")\n",
+        "  elif a==4:\n",
+        "    print(\"four\")\n",
+        "  elif a==5:\n",
+        "    print(\"five\")\n",
+        "  elif a==6:\n",
+        "    print(\"six\")\n",
+        "  elif a==7:\n",
+        "    print(\"seven\")\n",
+        "  elif a==8:\n",
+        "    print(\"eight\")\n",
+        "  elif a==9:\n",
+        "    print(\"nine\")\n",
+        "  elif a==10:\n",
+        "    print(\"ten\")\n",
+        "else:\n",
+        "  print(a,\"is greater then 10\")"
+      ],
+      "metadata": {
+        "id": "jtBWdqJ43kKu",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5543c4af-baee-4abe-8b60-e0ee1b2241a5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter value22\n",
+            "22 is greater then 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=1\n",
+        "while i<=5:\n",
+        "  print(i)\n",
+        "  i+=1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8bOzI6d5M05a",
+        "outputId": "ce09e2bb-2080-4420-83a3-e3f8f2ce6548"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
